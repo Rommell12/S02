@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type = "text/javascript">
+        let user =`[
+        {
+            "_id" : "6318c44b72cfbb51bf1cdb63",
+            "username" : "student_1",
+            "firstName" : "rommel",
+            "lastName" : "paraon",
+            "email" : "rommelparaon@gmail.com",
+            "password" : "pogiakomiss",
+            "mobileNumber" : "student_1",
+            "isAdmin" : false,
+            "enrollments" : [ 
+                {
+                    "enrollment_id" : "1",
+                    "course_id" : "1",
+                    "courseName" : "sadako",
+                    "isPaid" : true,
+                    "dateEnrolled" : "2-10-2001"
+                }
+            ]
+        },
+        
+        
+        {
+            "_id" : "6318c4b172cfbb51bf1cdb72",
+            "username" : "student_2",
+            "firstName" : "rendon",
+            "lastName" : "labrador",
+            "email" : "rendonfocussagoal@gmail.com",
+            "password" : "pinakapogi",
+            "mobileNumber" : "09511428818",
+            "isAdmin" : false,
+            "enrollments" : [ 
+                {
+                    "enrollment_id" : "2",
+                    "course_id" : "2",
+                    "courseName" : "sakura",
+                    "isPaid" : true,
+                    "dateEnrolled" : "5-6-2002"
+                }
+            ]
+        }
+        ]`;
+        console.log(user);
+
+
+
+let course = `[
+{
+    "_id" : "6318c69e72cfbb51bf1cdbae",
+    "name" : "sadako",
+    "description" : "Learn about sex education",
+    "price" : 2000,
+    "slots" : 32,
+    "schedule" : "4:00 - 9:00",
+    "instructor" : "junnyyespapa",
+    "isActive" : true,
+    "enrollees" : [ 
+        {
+            "enrollee_id" : "1",
+            "userId" : "6318c44b72cfbb51bf1cdb63",
+            "userName" : "student_1",
+            "isPaid" : true,
+            "dateEnrolled" : "2-10-2001"
+        }
+    ]
+},
+
+
+{
+    "_id" : "6318c77b72cfbb51bf1cdbd0",
+    "name" : "sakura",
+    "description" : "Learn about karate",
+    "price" : 300,
+    "slots" : 31,
+    "schedule" : "5:00 - 9:00",
+    "instructor" : "gadon",
+    "isActive" : true,
+    "enrollees" : [ 
+        {
+            "enrollee_id" : "2",
+            "userId" : "6318c4b172cfbb51bf1cdb72",
+            "userName" : "student_2",
+            "isPaid" : true,
+            "dateEnrolled" : "5-6-2002"
+        }
+    ]
+}
+]
+`; 
+
+console.log(course);
+
+    </script>
+</body>
+</html>
